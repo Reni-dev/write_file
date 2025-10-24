@@ -30,17 +30,4 @@ public class Write implements Writable {
         fw.close();
         System.out.println("Sikeres fájlba írás!");
     }
-
-
-    // private String readContent() {
-    //     Scanner sc = new Scanner(System.in, "UTF-8");
-    //     System.out.println("Add meg a szöveget: ");
-    //     String text = sc.nextLine();
-
-    //     System.out.println("\n\n...szöveg bekérése folyamatban...\n");
-    //     System.out.println("Bekért szöveg: "+ text + " -> Sikeresen bekérve!");
-    //     sc.close();
-
-    //     return text;
-    // }
 }
